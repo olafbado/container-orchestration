@@ -33,3 +33,7 @@ kubectl apply -f sample-app-service.yaml
 # Get the Load Balancer `EXTERNAL_IP` and type it in a web browser:
 kubectl get svc
 ```
+#### 6. Clean Up
+```bash
+terraform destroy
+```
